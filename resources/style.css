@@ -74,29 +74,6 @@ footer .right span {
     display: initial !important;
   }
 
-  header .scroll {
-    position: static;
-    width: auto;
-    background: none;
-    border: none;
-  }
-
-  header .header-right a {
-    display: inline-block;
-  }
-
-  .base {
-    width: 360px;
-  }
-
-  #landing h1 {
-    font-size: 3.5em;
-  }
-
-  #portfolio .wrap {
-    border-radius: 30px;
-  }
-
   #organizer img {
     display: inline-block;
     max-width: initial;
@@ -119,37 +96,6 @@ footer .right span {
     width: 970px;
   }
 
-  #landing {
-    min-height: 700px;
-    padding-top: 180px;
-    background: url(blob.png) 50vw center no-repeat, linear-gradient(135deg, #8360c3 0%, #2ebf91 100%);
-  }
-
-  #landing .intro {
-    max-width: 450px;
-    margin: 0 0 0 30px;
-    text-align: left;
-  }
-
-  #landing .people {
-    display: inline-block;
-  }
-
-  #portfolio .image,
-  #portfolio .caption {
-    float: left;
-    width: 50%;
-  }
-
-  .cta .container {
-    padding: 30px 50px;
-  }
-
-  .cta p {
-    width: auto;
-    margin: 0 50px 0 0;
-    line-height: 50px;
-  }
 }
 
 /* large desktop screen view */
@@ -157,18 +103,5 @@ footer .right span {
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
-  }
-
-  #landing .intro {
-    margin: 0 0 0 50px;
-  }
-
-  #landing .people {
-    margin-right: 80px;
-  }
-
-  #portfolio h3 {
-    margin-top: 30px;
-    font-size: 2.5em;
   }
 }
