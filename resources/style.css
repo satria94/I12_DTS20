@@ -1,0 +1,56 @@
+/* bagian organizer  */
+
+#organizer {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#organizer h2 {
+  font-size: 1.5em;
+}
+
+#organizer img {
+  display: block;
+  width: auto;
+  max-width: 80%;
+  max-height: 120px;
+  margin: 0 auto;
+  filter: grayscale(100%);
+  transition: .25s all;
+}
+
+#organizer img:hover {
+  filter: grayscale(0%);
+}
+
+/* bagian footer di sini */
+
+footer {
+  background: #353a40;
+  color: #fff;
+  text-align: center;
+  line-height: 0;
+}
+
+footer .container {
+  width: 100%;
+  margin: 0;
+  padding: 0 30px;
+  line-height: 1.618em;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #2196f3;
+}
+
+footer .left span {
+  margin: 0 15px;
+}
+
+footer .right span {
+  margin: 0 5px;
+}
