@@ -1,13 +1,15 @@
-/* Untuk Tablet */
-@media all and (max-width: 768px) {
-body{
-font-size:16px;	
-}
-  .container{
-	width:750px;  
+/* tablet screen view */
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
   }
-  
-   .mobile-only {
+
+  .container {
+    width: 750px;
+  }
+
+  .mobile-only {
     display: none !important;
   }
 
@@ -53,10 +55,10 @@ font-size:16px;
   }
 }
 
-/* Untuk Desktop */
-@media all and (max-width: 992px) {
+/* desktop screen view */
 
- .container {
+@media (min-width: 992px) {
+  .container {
     width: 970px;
   }
 
@@ -72,21 +74,11 @@ font-size:16px;
     text-align: left;
   }
 
-  #landing .people {
-    display: inline-block;
-  }
-
   #portfolio .image,
   #portfolio .caption {
     float: left;
     width: 50%;
   }
-}
-
-
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
-  
 }
 
 /* large desktop screen view */
@@ -98,10 +90,6 @@ font-size:16px;
 
   #landing .intro {
     margin: 0 0 0 50px;
-  }
-
-  #landing .people {
-    margin-right: 80px;
   }
 
   #portfolio h3 {
